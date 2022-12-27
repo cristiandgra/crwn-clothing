@@ -1,9 +1,9 @@
-import { compose, createStore, applyMiddleware } from 'redux';
-import logger from 'redux-logger';
+import { compose, createStore, applyMiddleware } from "redux";
+import logger from "redux-logger";
 
-import { rootReducer } from './root-reducer';
+import { rootReducer } from "./root-reducer";
 
-const middleWares = [process.env.NODE_ENV === 'development' && logger].filter(
+const middleWares = [process.env.NODE_ENV === "development" && logger].filter(
   Boolean
 );
 
