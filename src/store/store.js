@@ -2,7 +2,7 @@ import { compose, createStore, applyMiddleware } from "redux";
 import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
-import createSagaMiddleware from "@redux-saga";
+import createSagaMiddleware from "@redux-saga/core";
 import { rootSaga } from "./root-sagas";
 
 import logger from "redux-logger";
