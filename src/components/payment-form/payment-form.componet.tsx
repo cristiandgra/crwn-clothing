@@ -11,7 +11,7 @@ import {
   PaymentFormContainer,
   FormContainer,
   PaymentButton,
-} from "./payment-form.styles.jsx";
+} from "./payment-form.styles";
 
 const ifValidCardElement = (
   card: StripeCardElement | null
